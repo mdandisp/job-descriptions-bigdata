@@ -1,6 +1,6 @@
 # Global Job Descriptions Data Analysis & Machine Learning
 
-Proyek ini merupakan implementasi Praktikum Big Data dari Kelompok 7 (UPN Veteran Jakarta 2026). Kami mengolah dan menganalisis dataset "Global Job Descriptions" berukuran raksasa (1.7 GB) untuk mengekstraksi insight dunia kerja, memprediksi jabatan (NLP), memprediksi kompensasi gaji (Regresi), serta melakukan klasterisasi segmentasi perusahaan.
+Proyek ini merupakan implementasi Praktikum Big Data dari Kelompok 7 (UPN Veteran Jakarta 2026). Kami mengolah dan menganalisis dataset "Global Job Descriptions" berukuran raksasa (1.7 GB) untuk mengekstraksi insight dunia kerja, memprediksi jabatan (NLP), serta melakukan klasterisasi segmentasi perusahaan.
 
 ## 👥 Tim Pengembang (Kelompok 7)
 - **Akmal Taufiqurrahman** (2310511018)
@@ -15,13 +15,11 @@ Tiga pilar utama proyek ini:
 2. **Exploratory Data Analysis (EDA)**: Menyingkap distribusi pasar kerja berdasarkan peran, tren perekrutan, kualifikasi akademik, hingga deteksi pola data.
 3. **Machine Learning Pipeline**:
    - **Klasifikasi Teks**: Pemanfaatan *TF-IDF* untuk memprediksi profesi murni dari teks deskripsi pekerjaan.
-   - **Regresi Harga**: Prediksi nilai kompensasi (*Salary*) berdasarkan berbagai faktor industri.
    - **Klasterisasi (Unsupervised)**: Segmentasi korporasi menggunakan algoritma *K-Means*.
 
 ## 📂 Struktur Repositori
 - `kode_praktikum.ipynb` : Versi interaktif (Jupyter Notebook) yang disarankan untuk dibaca. Memuat seluruh proses secara runut beserta output grafik dan sel penjelasan.
 - `kode_praktikum.py` : Skrip Python penuh bagi Anda yang ingin menjalankan seluruh pipeline di terminal atau server tanpa environment interaktif.
-- `convert.py` & `update_png_path.py` : Skrip *utility* tambahan.
 - `output/` : Direktori berisi seluruh hasil ekstraksi plot/grafik analitik beresolusi 16:9.
 
 ## 🚀 Cara Menjalankan Secara Lokal
