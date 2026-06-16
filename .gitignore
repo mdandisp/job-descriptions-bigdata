@@ -1,0 +1,15 @@
+# Abaikan file dataset berukuran raksasa (GitHub membatasi file > 100MB)
+*.csv
+job_descriptions.csv
+
+# Abaikan environment & cache Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+
+# Abaikan file sistem operasi
+.DS_Store
+Thumbs.db
